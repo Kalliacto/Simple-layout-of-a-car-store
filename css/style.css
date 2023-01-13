@@ -117,8 +117,12 @@ body {
     text-align: center;
     margin-top: 40px;
 }
+.car-item-img:hover img {
+    transform: scale(1.1);
+}
 .car-item-img img {
     vertical-align: bottom;
+    transition: all .3s;
 }
 .car-item-title {
     font-weight: bold;
@@ -162,12 +166,13 @@ body {
     padding-bottom: 121px;
 }
 .price .sub-title {
-    margin-bottom: 20;
+    margin-bottom: 20px;
 }
 .price-text {
     font-size: 16px;
     line-height: 130%;
     color: #5D5D5F;
+    margin-bottom: 60px;
 }
 .price-form {
    max-width: 344px;
